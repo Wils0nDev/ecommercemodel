@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "app/home/product-category/product-category.component.scss";
+@import "app/home/category-body/category-body.component.scss";
+
+body {
+    font-family: var(--font-family);
+}/* You can add global styles to this file, and also import other style files */
+
+.p-card {
+    background-color: #FFF;
+    min-height: 540px;
+    position: relative;
+    overflow: hidden;
+    box-shadow:0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2) !important;
+    
+  }

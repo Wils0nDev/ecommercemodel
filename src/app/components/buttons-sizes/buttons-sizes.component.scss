@@ -1,0 +1,36 @@
+.p-button-outlined.button-size{
+    &.button-size{
+        border: 1px solid #1d1d1d;
+        color: #1d1d1d;
+        display: inline-block;
+        font-size: 12px;
+        margin: 0 1px 2px;
+        text-align: center;
+        width: 24px;
+        height: 24px;
+        transition: all 0.2s linear;
+        padding: 0;
+        border-radius: unset;
+        margin-left:10px;
+        &:hover {
+            background: #1d1d1d;
+            color: #FFF;
+            border: none;
+        }
+    }
+    
+}
+
+.p-card .p-card-body{
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+}
+.p-card .p-card-footer{
+    padding: 0;
+}
+
+.p-card .p-card-content{
+    padding: 0;
+}
+
